@@ -9,7 +9,7 @@ import UIKit
 
 final class WordsViewController: UITableViewController {
     
-    //MARK: Private properties
+    //MARK: Private Properties
     
     private var words: [Word] = []
     private var filteredWords: [Word] = []
