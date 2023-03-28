@@ -26,21 +26,3 @@ struct Word {
         return wordsData.map { Word(wordData: $0) }
     }
 }
-
-//struct WelcomeElement: Codable {
-//    let word: String
-//    let score: Int
-//    let tags: [Tag]
-//}
-//
-//enum Tag: String, Codable {
-//    case adj = "adj"
-//    case adv = "adv"
-//    case n = "n"
-//    case prop = "prop"
-//    case resultsTypeBackfillGloss = "results_type:backfill_gloss"
-//    case resultsTypePrimaryExternal = "results_type:primary_external"
-//    case syn = "syn"
-//    case tagN = "N"
-//    case v = "v"
-//}

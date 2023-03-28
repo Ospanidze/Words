@@ -99,7 +99,7 @@ extension WordsViewController {
     }
 }
 
-// MARK: - UISearchResultsUpdating
+// MARK: UISearchResultsUpdating
 
 extension WordsViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
